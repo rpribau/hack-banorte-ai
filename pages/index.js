@@ -10,6 +10,7 @@ import {Container,
 } from '@chakra-ui/react'
 import NextLink from 'next/link'
 import {ChevronRightIcon} from '@chakra-ui/icons'
+import Survey from './survey';
 import { FaFacebook, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
@@ -81,7 +82,7 @@ const Page = () => {
       <Box align="center" my={4}>
         <Button
             as={NextLink}
-            href={"/survey"}
+            href={"./survey"}
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="red"
