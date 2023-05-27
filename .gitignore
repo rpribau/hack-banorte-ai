@@ -9,3 +9,8 @@ dist
 .next/server/middleware-build-manifest.js
 .next/build-manifest.json
 *.pack
+*.js
+*.js
+*.json
+*.old
+*.pack
