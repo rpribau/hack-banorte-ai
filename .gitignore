@@ -8,3 +8,4 @@ dist
 .next/server/pages-manifest.json
 .next/server/middleware-build-manifest.js
 .next/build-manifest.json
+*.pack
