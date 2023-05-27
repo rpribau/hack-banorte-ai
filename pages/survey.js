@@ -9,6 +9,7 @@ import {Container,
     useColorModeValue
 } from '@chakra-ui/react'
 import NextLink from 'next/link'
+import Index from './index';
 import {ChevronRightIcon} from '@chakra-ui/icons'
 import { FaFacebook, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 
@@ -41,7 +42,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
             borderRadius={16}
             src="https://i.imgur.com/sa6eHtZ.png"
             alt="Logo Banorte"
-            href="/index"
+            href="Index.js"
             />
         <h>
         ‎
