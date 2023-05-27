@@ -37,13 +37,15 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
     return (
         <Container>
         <Box borderRadius="lg">
+            <NextLink href="/">
         
         <Image
             borderRadius={16}
             src="https://i.imgur.com/sa6eHtZ.png"
             alt="Logo Banorte"
-            href="Index.js"
+            href=""
             />
+            </NextLink>
         <h>
         ‎
         </h>
