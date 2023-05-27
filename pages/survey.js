@@ -9,7 +9,6 @@ import {Container,
     useColorModeValue
 } from '@chakra-ui/react'
 import NextLink from 'next/link'
-import Index from './index';
 import {ChevronRightIcon} from '@chakra-ui/icons'
 import { FaFacebook, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 
