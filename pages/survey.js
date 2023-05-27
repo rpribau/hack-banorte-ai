@@ -41,6 +41,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
             borderRadius={16}
             src="https://i.imgur.com/sa6eHtZ.png"
             alt="Logo Banorte"
+            href="/index"
             />
         <h>
         ‎

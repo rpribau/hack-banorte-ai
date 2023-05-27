@@ -3,3 +3,8 @@ node_modules
 dist
 .vercel
 .env
+.next/static/development/_buildManifest.js
+.next/static/chunks/webpack.js
+.next/server/pages-manifest.json
+.next/server/middleware-build-manifest.js
+.next/build-manifest.json
